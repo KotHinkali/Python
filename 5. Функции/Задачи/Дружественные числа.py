@@ -15,4 +15,4 @@ b = int(input())
 for i in range(a, b + 1):
     for j in range(i+1, b + 1):
         if is_friends(i,j):
-            print(i,j)
+            print(f"({i}, {j})",end=' ')
