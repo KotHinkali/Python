@@ -1,7 +1,7 @@
 a = int(input())
 if a % 10 == 1 and a % 100 != 11:
-    print(a, "гриб")
+    print("гриб")
 elif 2 <= a % 10 <= 4 and not (a % 100 <= 12 and a % 100 <= 14):
-    print(a, "гриба")
+    print("гриба")
 else:
-    print(a, "грибов")
+    print("грибов")
